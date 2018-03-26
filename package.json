@@ -1,0 +1,23 @@
+{
+  "name": "phaser-webpack",
+  "version": "1.0.0",
+  "description": "phaser game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gongjy/phaser-webpack.git"
+  },
+  "keywords": [
+    "phaser",
+    "webpacke"
+  ],
+  "author": "gongjy",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/gongjy/phaser-webpack/issues"
+  },
+  "homepage": "https://github.com/gongjy/phaser-webpack#readme"
+}
