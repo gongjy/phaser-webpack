@@ -14,7 +14,6 @@ Phaser Webpack
     npm run build // production
 ```
 
-### 关于资源的打包说明
-
-  资源的打包 需要使用webpack的 file-loader 和 url-loader
-  在游戏内图片的引用可以通过 第三方插件 [phaser-manifest-loader](https://github.com/mattcolman/phaser-manifest-loader)
+### 资源打包
+1. 使用静态路径，指定文件路径。
+2. 使用webpack的file-loader和url-loader，在游戏内资源的引用可以通过第三方插件 [phaser-manifest-loader](https://github.com/mattcolman/phaser-manifest-loader)
