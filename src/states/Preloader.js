@@ -11,7 +11,9 @@ export default class extends Phaser.State {
         this.load.image("man", man);
     }
     create() {
-        console.log("create");
-        this.game.state.start("GamePlay");
+        // add setTimeout  show loading background
+        this.time.events.add(1000, function() {
+            this.game.state.start("GamePlay");
+        }, this);
     }
 }
