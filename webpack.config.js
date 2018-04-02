@@ -15,7 +15,15 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/,
-                use: 'eslint-loader'
+                use: [
+                    {
+                        loader: 'babel-loader',
+                        options: {
+                            presets: ['env']
+                        }
+                    },
+                    'eslint-loader'
+                ]
             },
             {
                 test: /\.(png|jpg|gif|svg)$/,
