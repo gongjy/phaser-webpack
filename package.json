@@ -4,7 +4,9 @@
   "description": "phaser game",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -15,9 +17,23 @@
     "webpacke"
   ],
   "author": "gongjy",
-  "license": "MIT License",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gongjy/phaser-webpack/issues"
   },
-  "homepage": "https://github.com/gongjy/phaser-webpack#readme"
+  "homepage": "https://github.com/gongjy/phaser-webpack#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.0.0",
+    "expose-loader": "^0.7.5",
+    "file-loader": "^1.1.11",
+    "phaser-ce": "^2.10.3",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
 }
